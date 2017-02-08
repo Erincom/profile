@@ -1,0 +1,103 @@
+/* Here goes your CSS */
+body {
+  color: #2e3532;
+  background-color: #e0e2db;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #8b2635;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+li {
+  font-size: 24px;
+}
+
+a {
+  color: #d2d4c8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8b2635;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px 15px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1)
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center
+}
+
+.img-thumbnail {
+  width: 150px;
+  height: auto;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+#h2-padding {
+  padding-left: 5px;
+}
+
+#btn-magenta {
+  background-color: #8b2635;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  display: block;
+  width: 120px;
+  margin: 10px auto;
+}
+
+#btn-magenta:hover {
+
+}
